@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>confirmation</title>
+
+<style>
+div
+ {
+    box-sizing: border-box;
+    width:500px;
+    height:500px;
+           
+  }
+ 
+  .container{
+    background-color:black;
+    border-radius:5px;
+    box-shadow: 0 2px 5px rgba(103, 11, 11, 0.3);
+    /* width:400px; */
+    max-width:100%;
+    margin:0     ;
+  }
+  .header{
+    /* background:#232734; */
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+    border-radius: 4px 4px 0px 0px;
+  }
+  .header h1{
+    margin:0;
+    color:silver;
+    font-family: roboto;
+    
+  }
+  .form{
+    padding: 80px 50px;
+  }
+
+
+  .form-control{
+    margin-bottom: 1px;
+    padding-bottom:20px;
+    position: relative;
+  }
+   
+
+  .form-control input{
+    border: 3px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width:60%;
+    font-size:14px;
+    padding: 5px;
+    margin-left: 20px;
+  }
+  .form-control.success input{
+    border-color: #2ecc71;
+  }
+  
+  .form-control.error input{
+    border-color: #e74c3c;
+  }
+  .form-control i{
+    visibility: hidden;
+    position: absolute;
+    top: 26px;
+    right: 10px;
+  }
+   .button{
+    display: block;
+    background: #232734;
+    width: 50%;
+    color: #fff;
+    padding: 8px 5px 8px 8px;
+    border-radius: 4px;
+    margin: auto;
+    margin-bottom: 16px;
+  }
+    .button:hover{
+    background:#FF5858;
+  }
+  #OTP{
+    margin-left: 40px;
+}
+.label{
+    margin-left: 5.00rem;
+  }
+</style>
+</head>
+
+<body style="background-color:grey;">
+<center>
+<form class="Form" id="form" action="successful85.html">
+    <div class="container">
+        <div class='header' id="header">
+            <span><font style="color:pink;"><b>Dear User,<span><br>
+                <p>Thank you for your inquiry.<br>
+                    A Four digit verification number has been sent to your Email Address<br>
+</b>
+                   </p>
+        
+        
+            <div class='form-control'>
+                <label for="OTP" class="label">
+              
+                <input placeholder="please enter OTP" id="OTP" autocomplete="off">
+                              </font>
+                    </div>
+            <button class="button" id= 'button'> Verify</button>
+        </form>
+    </div>
+</center>
+</body>
+
+</html>
